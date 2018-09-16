@@ -1,6 +1,6 @@
 # mevn-pwa-client
 
-> Client part for MEVN-Pwa boilerplate.
+> Client part for MEVN-pwa boilerplate.
 
 ## Build Setup
 
