@@ -17,13 +17,13 @@ app.use(bodyParser.json())
 app.use(cors())
 
 // Static folder
-//app.use(express.static(__dirname + '/dist/'));
+app.use(express.static(__dirname + '/views/'));
 
 // Defining the Routes
 app.use('/api', require('./routes/index'));
 
 // Listening to port
 app.listen(port)
-console.log('Authentication Service Running On:' + ' ' + 'http://localhost:' + port)
+console.log(`Listening On: http://localhost:${port}/api`)
 
 module.exports = app
