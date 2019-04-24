@@ -1,6 +1,6 @@
 {
-  "name": "mevn-pwa-client",
-  "short_name": "mevn-pwa-client",
+  "name": "client",
+  "short_name": "Mevn-pwa-boilerplate",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
